@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="my::BSTree&lt;T, less, Node, traits&gt;" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AFAAAAACAAAgAAAEACAAAAAQAgBAAAAACAAoAAAAAAA=</HashCode>
+      <FileName>BSTree.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="my::BSTree_traits&lt;Node&gt;" Collapsed="true">
+    <Position X="3.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BSTree.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="my::BTree&lt;T, Node, traits&gt;" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAACAAAQAAAAAAAgAAAAAgRIAAAAACAgAAAAgAA=</HashCode>
+      <FileName>BTree.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="my::BTree_traits&lt;Node&gt;" Collapsed="true">
+    <Position X="0.75" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BTree.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="my::BSTree_const_iterator&lt;Node, traits&gt;" Collapsed="true">
+    <Position X="10.75" Y="4.5" Width="3.5" />
+    <AssociationLine Name="_iterator" Type="my::_BSTree_const_iterator&lt;Node, traits&gt;">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.065" Y="0.11" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAEAAwEAAAAAAEAACAAgAAAAAAA=</HashCode>
+      <FileName>BSTree.hpp</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_iterator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="my::_BSTree_const_iterator&lt;Node, traits&gt;" Collapsed="true">
+    <Position X="6.25" Y="4.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAQAEAAQAAAAAAAkAAAAAgAAAAAAA=</HashCode>
+      <FileName>BSTree.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="my::_BSTree_iterator&lt;Node, traits&gt;" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAQAEIAgAAAAAAAEAAAAAgAAAAAAA=</HashCode>
+      <FileName>BSTree.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="my::BSTree_iterator&lt;Node, traits&gt;" Collapsed="true">
+    <Position X="10.75" Y="5.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAQAEAAwEAAAAAAEAAAAAgAAAAAAA=</HashCode>
+      <FileName>BSTree.hpp</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_iterator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="my::BTreeNode_base&lt;T&gt;">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAQAQAAAAAAAAAAAAAAAAAAAAAIASgAAAAAAAAAgAA=</HashCode>
+      <FileName>BTree.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="my::BTreeNode_Parent&lt;T&gt;">
+    <Position X="3.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAABAAAAAAAAQAAAIgSgAACAAAAAAgAA=</HashCode>
+      <FileName>BSTree.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="my::BTree_iterator&lt;Node, traits&gt;">
+    <Position X="10" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAgAAAAAIAAAAAAAgAAAAgAA=</HashCode>
+      <FileName>BTree.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="my::BTree_const_iterator&lt;Node, traits&gt;">
+    <Position X="6.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAEAAAwAAAAAIAEAAAAAgAAAAgAA=</HashCode>
+      <FileName>BTree.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
